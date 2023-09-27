@@ -5,6 +5,7 @@ import 'package:gpproject/screens/drawer.dart';
 import 'package:gpproject/screens/homescreen.dart';
 import 'package:gpproject/screens/login.dart';
 import 'package:gpproject/screens/noties.dart';
+import 'package:gpproject/screens/portfolio.dart';
 
 class tabs extends StatefulWidget {
   const tabs({super.key});
@@ -44,7 +45,7 @@ class _tabsState extends State<tabs> {
     });
   }
 
-  final List<Widget> _screens = [homescreen(), appointment(), noties()];
+  final List<Widget> _screens = [homescreen(), appointment(), noties(),portfolio()];
 
   @override
   Widget build(BuildContext context) {
